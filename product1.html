@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-Tw">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/CSS/main.css" />
+    <link rel="stylesheet" href="/CSS/product1.css" />
+    <!--連結css-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="icon" href="/picture/logo.jpg" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=person"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js"
+      integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>瑞軒花生糖</title>
+  </head>
+
+  <style>
+    body {
+      font-family: Arial;
+    }
+
+    .membername {
+      margin-top: 20px;
+    }
+    .header-right {
+      margin-left: auto; /* 整包推右 */
+    }
+    .material-symbols-outlined {
+      font-variation-settings: "FILL" 1, "wght" 400, "GRAD" 0, "opsz" 48;
+    }
+
+    .language-dropdown button {
+      font-size: 22px;
+      color: #000;
+      text-decoration: none;
+      margin-left: auto;
+    }
+
+    .language-dropdown button:hover {
+      color: #555;
+    }
+
+    .language-dropdown .dropdown-toggle::after {
+      display: none; /* 移除小三角 */
+    }
+
+    /* Tab 標籤樣式 */
+
+    .Tab-label {
+      padding: 10px 20px;
+      cursor: pointer;
+      border: 1px solid transparent;
+      border-bottom: none;
+      margin-right: 5px;
+      user-select: none;
+      display: flex;
+    }
+
+    .Tabset-tabs-all {
+      display: flex;
+      justify-content: center;
+    }
+
+    .Tab-label.active {
+      border-color: #c68b55;
+      border-bottom: 2px solid white;
+      font-weight: bold;
+      background-color: #fff;
+    }
+
+    /* Tab 內容 */
+    .js-tab-content {
+      display: none;
+      padding: 20px;
+      border: 1px solid #ccc;
+      background-color: rgb(250, 247, 240);
+    }
+  </style>
+  <header>
+    <p class="logo-name">
+      <a href="main.html"><img src="/picture/logo.jpg" class="logo" /></a
+      ><a class="logocolor" href="main.html">瑞軒花生糖</a>
+    </p>
+    <ul>
+      <li><a href="main.html">首頁</a></li>
+      <li><a href="contract.html">關於我們</a></li>
+      <li><a href="content.html">最新公告</a></li>
+      <li><a href="shopppingcar.html">購物車</a></li>
+    </ul>
+
+    <ul class="header-right">
+      <li>
+        <span class="material-symbols-outlined">
+          <a href="member.html">person</a>
+        </span>
+        <a href="member.html"><p class="membername">會員登入</p></a>
+        <div class="dropdown language-dropdown">
+          <button
+            class="btn btn-link dropdown-toggle"
+            type="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            <i class="bi bi-globe"></i>
+          </button>
+
+          <ul class="dropdown-menu dropdown-menu-end">
+            <li><a class="dropdown-item" href="?lang=zh">繁體中文</a></li>
+            <li><a class="dropdown-item" href="?lang=en">English</a></li>
+            <li><a class="dropdown-item" href="?lang=ja">日本語</a></li>
+          </ul>
+        </div>
+      </li>
+    </ul>
+  </header>
+
+  <body>
+
+    <main>
+      <div class="product">
+        <div>
+          <img src="/picture/芝麻花生糖.jpg" alt="圖片未顯示" />
+        </div>
+        <div class="nut">
+          <div>
+            <div class="nuts1">芝麻花生糖</div>
+            <div>香脆口感、營養豐富：嚴選台灣特選花生與黑白芝麻，搭配天然麥芽糖製作，口感酥脆、香氣四溢。
+                無添加防腐劑：採用天然原料製作，堅持不添加人工防腐劑或化學香料，吃得安心又健康。</div>
+          </div>
+          <div class="name-buy">
+            <div class="price">NT$150/300公克</div>
+            <select class="form-select" aria-label="Default select example">
+              <option selected>選擇數量</option>
+              <option value="1">一包</option>
+              <option value="2">兩包</option>
+              <option value="3">三包</option>
+            </select>
+          </div>
+          <div class="button-buy">
+            <a class="shoppingcar" href="/HTML/member.html">加入購物車</a>
+            <a class="buy" href="/HTML/member.html">立即購買</a>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <div class="Tabset">
+      <section class="Tabset-tabs">
+        <div class="Tabset-tabs-all">
+          <div
+            class="Tab-label js-tab-label active"
+            data-target="#tabset-tab-nuts-1"
+            data-scroll-offset="48"
+          >
+            商品描述
+          </div>
+          <div
+            class="Tab-label js-tab-label"
+            data-target="#tabset-tab-nuts-2"
+            data-scroll-offset="48"
+          >
+            送貨及付款方式
+          </div>
+          <div
+            class="Tab-label js-tab-label"
+            data-target="#tabset-tab-nuts-3"
+            data-scroll-offset="48"
+          >
+            顧客評價
+          </div>
+        </div>
+
+        <div class="Tab-content js-tab-content active" id="tabset-tab-nuts-1">
+            <h3 class="word-color">商品描述</h3>
+            <div >
+                <img class="img-fluid w-50 mx-auto d-block" src="/picture/新包裝袋.JPG" alt="">
+            </div>
+           
+           <div class="detail">
+                <p>
+                商品特色：<br>
+                香脆口感、營養豐富：<br>
+                嚴選台灣特選花生與黑白芝麻，搭配天然麥芽糖製作，口感酥脆、香氣四溢。<br>
+                </p>
+                <p>
+                無添加防腐劑：<br>
+                採用天然原料製作，堅持不添加人工防腐劑或化學香料，吃得安心又健康。<br>
+                </p>
+                <p>
+                方便分享的包裝：<br>
+                每包 300公克大容量設計，無論家庭聚會或送禮都非常適合。 <br>
+                </p> 
+                <p>
+                    口感與味道：<br>
+                    外層帶有淡淡的麥芽糖甜香，配合黑白芝麻的微焦香氣，每一口都酥脆滿足。<br>
+                    花生香濃、芝麻香韻悠長，甜而不膩，兼具零嘴與點心的雙重享受。<br>
+                </p>
+                <p>
+                    健康與營養： 富含蛋白質、膳食纖維及維生素E，滿足日常健康需求。<br>
+                    適合全家大小享用，無論茶點、下午茶或輕食都非常適合。 <br>
+                </p>
+                <p>
+                    商品資訊：<br>
+                    品名：芝麻花生糖 <br>
+                    成分：花生、黑芝麻、白芝麻、麥芽、蔗糖、玫瑰鹽<br>
+                    重量：150公克 <br>
+                    產地：台灣 保存期限：未開封 240 天<br>
+                    保存方式：請放置於陰涼乾燥處，避免陽光直射，開封後請盡快食用<br>
+                </p>
+             
+           </div>
+        </div>
+
+        <div class="Tab-content js-tab-content" id="tabset-tab-nuts-2">
+          <h3 class="word-color">送貨及付款方式</h3>
+          <p class="deviler">這裡放送貨及付款方式內容。</p>
+        </div>
+
+        <div class="Tab-content js-tab-content" id="tabset-tab-nuts-3">
+          <h3 class="word-color">顧客評價</h3>
+          <p class="review">這裡放顧客評價內容。</p>
+        </div>
+      </section>
+    </div>
+
+    <footer class="footer">
+      <p>訂購專線:<a href="tel:0906-239-338">0906-239-338</a></p>
+      <p>
+        官方粉絲專頁：<a
+          href="https://www.facebook.com/profile.php?id=100064057418878"
+          target=""
+        >
+          <i class="fa-brands fa-facebook"></i
+        ></a>
+      </p>
+    </footer>
+
+    <script>
+      document.querySelectorAll(".js-tab-label").forEach((tab) => {
+        tab.addEventListener("click", function () {
+          // 移除所有 active
+          document
+            .querySelectorAll(".js-tab-label")
+            .forEach((t) => t.classList.remove("active"));
+          document
+            .querySelectorAll(".js-tab-content")
+            .forEach((c) => c.classList.remove("active"));
+
+          // 加上 active
+          this.classList.add("active");
+          const targetId = this.dataset.target;
+          const offset = parseInt(this.dataset.scrollOffset) || 0;
+          const target = document.querySelector(targetId);
+
+          if (target) {
+            target.classList.add("active");
+
+            // 平滑滾動，支援 scroll-offset
+            const topPos =
+              target.getBoundingClientRect().top + window.pageYOffset - offset;
+            window.scrollTo({ top: topPos, behavior: "smooth" });
+          }
+        });
+      });
+    </script>
+  </body>
+</html>

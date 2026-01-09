@@ -1,0 +1,29 @@
+h2{
+    text-align: center;
+    margin-top: 100px;
+    
+  }
+
+  .card {
+    width: 100%;        /* 卡片本身滿版 */
+    max-width: 400px;   /* 可自行調整 */
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+  
+  .fb-video-wrapper {
+    position: relative;
+    width: 100%;
+    padding-top: 177%;  /* Facebook 直式影片比例 */
+    overflow: hidden;
+  }
+  
+  .fb-video-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    justify-content:center;
+  }
+  

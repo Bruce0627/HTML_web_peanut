@@ -1,0 +1,50 @@
+
+.btn-custom {
+    background-color: #d47d40; /* 深棕色 */
+    border-radius: 10px;
+    border-color: #d2ad96;
+    height: 40px;
+    color: black;
+  }
+  
+  .btn-custom:hover {
+    background-color: rgb(250, 247, 240);
+    border-color: #d2ad96;
+    border-radius: 10px;
+  }
+
+  .forget-password{
+    color: var(--page-text-link, #3493fb) !important;
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+
+  .btn-custom1 {
+    background-color: #f50000; /* 深棕色 */
+    border-radius: 10px;
+    border-color: #d2ad96;
+    height: 40px;
+    width: 300px;
+    color: black;
+  }
+  
+  .btn-custom1:hover {
+    background-color: rgb(250, 247, 240);
+    border-color: #d2ad96;
+    border-radius: 10px;
+  }
+
+  .member{
+    margin-left:  555px;
+    margin-bottom: 100px;
+  }
+  .memberword {
+    color: black;
+  }
+  li{
+    display: flex;
+  }
+  .login{
+    margin-top: 200px;
+    margin-bottom: 30px;
+  }

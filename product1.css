@@ -1,0 +1,85 @@
+
+.product{
+display: flex;
+justify-content: center;
+margin-bottom: 30px;
+margin-top: 130px;
+}
+
+
+
+.nut{
+    margin-left: 30px;
+    width: 350px; ;
+}
+.nuts1{
+    font-size: 30px;
+
+}
+.button-buy{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.name-buy{
+    margin-top: 86px;
+}
+.price{
+    color: #000;
+    font-size: 25px;
+}
+
+.shoppingcar{
+    background-color: antiquewhite;
+    border: 1px solid transparent;
+    padding: 5px;
+    border-radius: 10px;
+    display: block;
+    text-align: center;
+    width: 275px;
+}
+
+.buy{
+    background-color: rgb(247, 2, 2);
+    border: 1px solid transparent;
+    padding: 5px;
+    border-radius: 10px;
+    text-align: center;
+    width: 275px;
+}
+
+.Tab-label{
+    margin: 10px 30px;
+}
+
+.Tab-content {
+    display: none;
+  }
+  
+  .Tab-content.active {
+    display: block;
+  }
+  .js-tab-content {
+    display: none;
+  }
+  
+  .js-tab-content.active {
+    display: block;
+  }
+
+  .detail{
+    margin-top: 30px;
+margin-left: 355px;
+  }
+
+  .word-color{
+    border-bottom: 3px solid bisque;
+    margin-left: 610px;
+    margin-right: 610px;
+  }
+
+
+
+
+    
