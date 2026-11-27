@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>訂單管理｜瑞軒花生糖</title>
+  <link rel="stylesheet" href="../assets/store.css">
+  <script defer src="../assets/admin-orders.js"></script>
+</head>
+<body>
+<main class="container page">
+  <h1>訂單管理</h1>
+  <form method="post" class="panel checkout order-form">
+    <label>管理金鑰<input name="token" type="password" required autocomplete="off"></label>
+    <label>訂單類型<select name="kind"><option value="">全部</option><option value="retail">商品</option><option value="oem">代工</option></select></label>
+    <label>訂單編號或聯絡方式<input name="query" type="search" maxlength="120"></label>
+    <button class="button primary">查詢</button>
+  </form>
+  <p role="status"></p>
+  <section aria-label="查詢結果" id="orders"></section>
+  <div class="actions">
+    <button type="button" id="previous" hidden>上一頁</button>
+    <button type="button" id="next" hidden>下一頁</button>
+  </div>
+</main>
+</body>
+</html>
